@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy --minify",
+    "pages:dev": "npx wrangler pages dev --port 8787 -c wrangler.pages.jsonc",
+    "pages:deploy": "npx wrangler pages deploy -c wrangler.pages.jsonc"
+  },
+  "dependencies": {
+    "hono": "^4.10.6"
+  },
+  "devDependencies": {
+    "wrangler": "^4.115.0"
+  },"name": "wloc-geo"
+}
